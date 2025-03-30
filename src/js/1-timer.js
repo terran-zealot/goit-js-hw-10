@@ -7,9 +7,6 @@ import iziToast from "izitoast";
 // Додатковий імпорт стилів
 import "izitoast/dist/css/iziToast.min.css";
 
-
-
-
 function convertMs(ms) {
   // Number of milliseconds per unit of time
   const second = 1000;
@@ -35,10 +32,6 @@ console.log(convertMs(24140000)); // {days: 0, hours: 6 minutes: 42, seconds: 20
 
 
 
-
-
-
-
 const options = {
   enableTime: true,
   time_24hr: true,
@@ -48,3 +41,12 @@ const options = {
     console.log(selectedDates[0]);
   },
 };
+
+
+
+
+
+
+
+
+
